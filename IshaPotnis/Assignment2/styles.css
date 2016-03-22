@@ -1,0 +1,274 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url('icomoon.eot?69asbw');
+  src: url('icomoon.eot?69asbw#iefix') format('embedded-opentype'), url('icomoon.ttf?69asbw') format('truetype'), url('icomoon.woff?69asbw') format('woff'), url('icomoon.svg?69asbw#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  color: black;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-arrows_move2:before {
+  content: "\e900";
+}
+.icon-arrows_plus:before {
+  content: "\e901";
+}
+.icon-arrows_question:before {
+  content: "\e902";
+}
+.icon-arrows_right_double-31:before {
+  content: "\e903";
+}
+.icon-arrows_rotate_anti_dashed:before {
+  content: "\e904";
+}
+.icon-arrows_shrink_diagonal1:before {
+  content: "\e905";
+}
+.icon-arrows_sign_left:before {
+  content: "\e906";
+}
+.icon-arrows_sign_right:before {
+  content: "\e907";
+}
+.icon-arrows_slide_right1:before {
+  content: "\e908";
+}
+.icon-arrows_square_left:before {
+  content: "\e909";
+}
+@font-face {
+  font-family: roboto-regular;
+  src: url(Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: roboto-light;
+  src: url(Roboto-Light.ttf);
+}
+body{
+  font-family: roboto-light;
+}
+li{
+  list-style-type: none;
+  margin-bottom: 5px;
+}
+.navbar {
+  padding-top: 10px;
+  padding-bottom: 15px;
+  margin-top: 5px;
+  border-color: black;
+  margin-bottom: 20px;
+  background-color: #E2DDDD;
+  border: 1px solid transparent;
+  font-family: roboto-regular;
+  text-decoration: none;
+  background: #DCDCD7;
+  /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(white, white, #DCDCD7);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(white, white, #DCDCD7);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(white, white, #DCDCD7);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(white, white, #DCDCD7);
+  /* Standard syntax (must be last)*/
+}
+.navbar a {
+  color: #928787;
+  padding: 10px 45px;
+  text-decoration: initial;
+  font-weight: bold;
+}
+.navbar a:hover {
+  color: red;
+  background-color: transparent;
+}
+section {
+  width: 70%;
+  font-family: roboto-light;
+  float: left;
+}
+section .heading {
+  font-size: 30px;
+  color: red;
+  transform: scale(1,1.3);
+}
+section p,
+section b {
+  margin-left: 30px;
+}
+section .footing {
+  color: green;
+}
+aside {
+  font-family: roboto-light;
+  margin-top: 70px;
+}
+aside .search-box {
+  border-color: #E05252;
+  margin-left: 65px;
+}
+aside .search-button {
+  border-color: red;
+  color: red;
+}
+.logo{
+  margin-left: 110px;
+  margin-top: 100px;
+  position: absolute;
+  width: 250px;
+}
+
+.banner{
+  width:70%; 
+  margin-left: 370px;
+}
+aside .resources {
+  background-color: #B8B5B5;
+  width: 17%;
+  height: 30px;
+  float: right;
+  margin-left: 65px;
+  margin-right: 105px;
+  margin-top: 20px;
+  color: white;
+  text-indent: 15px;
+  padding-top: 10px;
+  font-weight: bold;
+}
+aside .listing {
+  list-style: none;
+  color: black;
+  text-align: left;
+  -webkit-padding-start: 0px;
+  font-weight: bold;
+}
+aside .listing hr {
+  border-style: dotted;
+  padding: 0 0px;
+}
+article {
+  font-family: roboto-light;
+  float: left;
+}
+article figure {
+  display: inline-block;
+  position: relative;
+}
+article .rectangular-image {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-right: 160px;
+  -webkit-transition: 2s linear;
+  transition: 2s linear;
+}
+article .rectangular-image:hover {
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+  -webkit-transition: 2s linear;
+  transition: 2s linear;
+}
+article figcaption {
+  margin-left: 70px;
+}
+span {
+  margin-bottom: 5px;
+}
+footer {
+  font-family: roboto-light;
+  margin-top: 600px;
+  background-color: #4C4A4A;
+}
+footer label {
+  margin-left: 40px;
+  color: white;
+  font-size: 20px;
+}
+footer .footer-options {
+  text-align: left;
+  display: inline-block;
+  position: relative;
+  width: 33%;
+  height: 250px;
+  float:left;
+  margin-top: 30px;
+}
+footer .footer-options .form-fill {
+  padding-bottom: 5px;
+  margin-left: 70px;
+}
+footer .footer-options .form-fill span {
+  margin-bottom: 5px;
+  color: rgba(192, 192, 188, 0.86);
+}
+footer .footer-options .form-fill .accept-item {
+  margin-right: 125px;
+  border-radius: 10px;
+  background-color: #DCDCD7;
+  border-color: #B3A7A7;
+  float: right;
+}
+footer .footer-options .button_example {
+  border: 1px solid #26759E;
+  border-radius: 7px;
+  font-size: 15px;
+  font-family: roboto-light;
+  padding: 5px 25px 5px 25px;
+  text-shadow: 0px 1px 0 rgba(255, 255, 255, 0.5);
+  color: #F7FAF2;
+  background: bottom;
+  /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(bottom, #054A7A, #1c5a85);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom, #054A7A, #1c5a85);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom, #054A7A, #1c5a85);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(bottom, #054A7A, #1c5a85);
+  /* Standard syntax (must be last)*/
+  float: right;
+  margin-right: 120px;
+  margin-top: 15px;
+}
+footer .footer-menu {
+  color: rgba(192, 192, 188, 0.86);
+}
+.image-box {
+  box-shadow: 0px 3px rgb(173, 172, 172);
+}
+.foot-tag {
+  text-align: center;
+  color: rgba(192, 192, 188, 0.86);
+}
+.foot-tag a {
+  color: rgba(192, 192, 188, 0.86);
+}
+.foot-tag a:hover {
+  color: white;
+}
+.svg-icons {
+  float: right;
+  font-size: 45px;
+}
+::-webkit-input-placeholder {
+  color: black;
+  font-style: italic;
+  margin-top: 45px;
+  padding-left: 10px;
+  font-size: 13px;
+}

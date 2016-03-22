@@ -1,0 +1,53 @@
+/*
+Error: Invalid CSS after "...nt-size: larger": expected ";", was ":"
+        on line 91 of C:\Users\ipotnis\Desktop\HTML5\Assignment5\script.scss
+
+86: }
+87: 
+88: li{
+89:   list-style-type: none;
+90:   margin-bottom: 5px;
+91:   font-size: larger:
+92: }
+93: article{
+94:     float: left;
+95:   figure{
+96:       display: inline-block;
+
+Backtrace:
+C:\Users\ipotnis\Desktop\HTML5\Assignment5\script.scss:91
+C:/Users/ipotnis/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:1179:in `expected'
+C:/Users/ipotnis/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:1115:in `expected'
+C:/Users/ipotnis/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:1110:in `tok!'
+C:/Users/ipotnis/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:775:in `block in try_declaration'
+C:/Users/ipotnis/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:1155:in `call'
+C:/Users/ipotnis/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:1155:in `rethrow'
+C:/Users/ipotnis/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:780:in `try_declaration'
+C:/Users/ipotnis/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:709:in `declaration_or_ruleset'
+C:/Users/ipotnis/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:674:in `block_child'
+C:/Users/ipotnis/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:666:in `block_contents'
+C:/Users/ipotnis/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:655:in `block'
+C:/Users/ipotnis/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:724:in `declaration_or_ruleset'
+C:/Users/ipotnis/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:674:in `block_child'
+C:/Users/ipotnis/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:666:in `block_contents'
+C:/Users/ipotnis/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:655:in `block'
+C:/Users/ipotnis/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:647:in `ruleset'
+C:/Users/ipotnis/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:673:in `block_child'
+C:/Users/ipotnis/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:666:in `block_contents'
+C:/Users/ipotnis/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:123:in `stylesheet'
+C:/Users/ipotnis/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:39:in `parse'
+C:/Users/ipotnis/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/engine.rb:403:in `_to_tree'
+C:/Users/ipotnis/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/engine.rb:378:in `_render_with_sourcemap'
+C:/Users/ipotnis/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/engine.rb:295:in `render_with_sourcemap'
+C:/Users/ipotnis/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/exec/sass_scss.rb:414:in `run'
+C:/Users/ipotnis/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/exec/sass_scss.rb:63:in `process_result'
+C:/Users/ipotnis/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/exec/base.rb:52:in `parse'
+C:/Users/ipotnis/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/exec/base.rb:19:in `parse!'
+C:/Users/ipotnis/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.21/bin/sass:13:in `<top (required)>'
+C:/Users/ipotnis/Ruby22-x64/bin/sass:23:in `load'
+C:/Users/ipotnis/Ruby22-x64/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...nt-size: larger\": expected \";\", was \":\"\A         on line 91 of C:\Users\ipotnis\Desktop\HTML5\Assignment5\script.scss\A \A 86: }\A 87: \A 88: li{\A 89:   list-style-type: none;\A 90:   margin-bottom: 5px;\A 91:   font-size: larger:\A 92: }\A 93: article{\A 94:     float: left;\A 95:   figure{\A 96:       display: inline-block;"; }
